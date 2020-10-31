@@ -11,6 +11,7 @@ namespace Cw1
     {
        public static async Task Main(string[] args)
        {
+           //Wersja dla galezi dodatkowe wymagania
            if (args.Length == 0) throw new ArgumentException("Brak adresu URL");
 
            var urlRegex = new Regex("^(https?://)?[0 9a-zA-Z].[-_0-9a-zA-Z].[0-9a-zA-Z]+$");
